@@ -44,7 +44,7 @@ def init_rag_system():
         search_kwargs={"k": 15, "fetch_k": 30}
     )
     
-    llm = ChatGoogleGenerativeAI(model="models/gemini-2.5-flash", temperature=0)
+    llm = ChatGoogleGenerativeAI(model="寫入要使用的Gemini模型", temperature=0)
     
     return retriever, llm
 

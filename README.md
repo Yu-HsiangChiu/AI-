@@ -16,7 +16,6 @@
 
 ## 🛠️ 技術使用
 
-
 * **前端介面**：Streamlit
 * **大語言模型 (LLM)**：Google Gemini API 
 * **向量模型 (Embedding)**：Hugging Face (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` 本地運行)
@@ -26,6 +25,13 @@
 ## 📸 系統展示 (Demo)
 
 > **<img width="1258" height="843" alt="DEMO" src="https://github.com/user-attachments/assets/adb15c75-6836-46d9-87f2-d3f79c572c7c" />**
+
+## 🚀 使用流程 (Quick Start)
+請依照以下步驟設定並啟動系統：
+* **Step 1.** 設定 Gemini API Key : 開啟.env 檔案，輸入您的 Google Gemini API 金鑰
+* **Step 2.** 挑選 Gemini 模型 : 在終端機執行 check_models.py，系統會列出您的 API Key 可使用的模型
+* **Step 3.** 設定主程式 : 輸入要使用的Gemini model名稱，與要讀取的PDF檔名
+* **Step 4.** 啟動系統 : 輸入streamlit run demo.py
 
 ## 🚀 快速啟動 (Quick Start)
 

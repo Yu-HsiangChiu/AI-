@@ -38,4 +38,4 @@
 ### 1. 安裝環境依賴
 請確保已安裝 Python 3.8 以上版本，並執行以下指令安裝所需套件：
 ```bash
-pip install -r requirements.txt
+pip install streamlit langchain langchain-community langchain-chroma langchain-google-genai langchain-huggingface langchain-text-splitters google-generativeai python-dotenv pypdf sentence-transformers
